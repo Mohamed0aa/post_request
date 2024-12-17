@@ -54,8 +54,8 @@ namespace BezaatSignup
             string finalResponse = await postResponse.Content.ReadAsStringAsync();
 
             Console.WriteLine(finalResponse);
-           // File.Create("C:\\Users\\Kimo Store\\Desktop\\test.html");
-            File.AppendAllText("C:\\Users\\Kimo Store\\Desktop\\test.html",finalResponse);
+            // File.Create("C:\\Users\\Kimo Store\\Desktop\\test.html");
+            File.AppendAllText("C:\\Users\\Kimo Store\\Desktop\\test.html", finalResponse);
         }
     }
 }
